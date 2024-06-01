@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-home {
+    position: relative;
+    padding: 240px 0;
+    border-radius: 0 0 0 450px;
+}
+
+.im-1 {
+    margin-bottom: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.hc-1 {
+    font-size: 20px;
+}
+
+.ht-1 {
+    font-size: 20px;
+}
+
+.me-1 {
+    margin-top: -107px;
+}
+
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.media{
+    display: flex;
+    gap: 30px;
+}
+.home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-img {
+    position: relative;
+}
+.cb-1{
+    padding: 13px 20px;
+    border-radius: 10px;
+    width: 125px;
+    background-color: rgba(30, 165, 154, .1) !important;
+}
+.cp-1{
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+.bgf-1{
+    border-radius: 0 0 350px 0;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.pb-1{
+    box-shadow: 0 5px 30px -10px rgba(0,0,0,.1);
+    padding: 35px 50px;
+    border-radius: 20px;
+
+}
+.tb-1{
+    padding: 4px 10px;
+    display: inline-block;
+}
+.ts-1 i{
+    width: 38px;
+    height: 38px;
+    background-color: #f0f9fa;
+    border-radius: 50%;
+    border: 2px solid #dff1f1;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+}
+.bs-1{
+    background-color: rgba(226, 234, 233, 0.25);
+    color: #1ea59a;
+}
+.br-2{
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.sb-1 {
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+.ci-1 i{
+    font-size: 40px;
+    color: #1ea59a;
+}
+.br-1{
+    border-radius: 30px;
+}
+.footer-link a{
+    color: #828f99;
+    line-height: 38px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.an-2 {
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+    position: absolute;
+    animation-name: square1;
+    animation-duration: 10s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation: square 2s 1s alternate infinite linear; */
+}
+.subscribe form{
+    position: relative;
+    max-width: 400px;
+}
+.subscribe input{
+    width: 100%;
+    font-size: 15px;
+    color: #828f99;
+    border: none;
+    outline: none !important;
+    padding: 12px 75px 12px 15px;
+    background-color: rgba(30, 165, 154, .1);
+    border-radius: 5px;
+}
+.subscribe button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none !important;
+    border-radius: 0 5px 5px 0;
+    padding: 2px 12px;
+    font-size: 25px;
+}
+@keyframes square1 {
+    0% {
+        bottom: 100px;
+        left: -40px;
+        background-color: rgb(117, 64, 64);
+        border-radius: 50%;
+    }
+
+    50% {
+        bottom: 150px;
+        left: -40px;
+        background-color: rgb(74, 72, 135);
+        border-radius: 50%;
+    }
+
+    100% {
+        bottom: 100px;
+        left: -40px;
+        background-color: red;
+        border-radius: 50%;
+    }
+}
+
+.an-3 {
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+    position: absolute;
+    animation-name: square2;
+    animation-duration: 10s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation: square 2s 1s alternate infinite linear; */
+}
+
+@keyframes square2 {
+    0% {
+        top: 20px;
+        right: 20px;
+        background-color: rgb(117, 64, 64);
+        border-radius: 50%;
+    }
+
+    50% {
+        top: 140px;
+        right: 20px;
+        background-color: rgb(74, 72, 135);
+        border-radius: 50%;
+    }
+
+    100% {
+        top: 40px;
+        right: 20px;
+        background-color: red;
+        border-radius: 50%;
+    }
+}
